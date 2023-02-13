@@ -11,6 +11,6 @@ function changeurl()
 		document.getElementById("url").innerHTML=document.getElementById("url").innerHTML+" "+"?"+" "+"year="+p2;
 		}
 		else{
-			document.getElementById("url").innerHTML=document.getElementById("url").innerHTML+" "+"?"+" "+" "+"name="+" "+p1+" "+"year="+p2;
+			document.getElementById("url").innerHTML=document.getElementById("url").innerHTML+" "+"?"+" "+" "+"name="+" "+p1+" "+"&"+" "+"year="+p2;
 		}
 	}
